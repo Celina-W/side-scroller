@@ -136,6 +136,7 @@ public class DinoGame implements Commons, PlayerActions {
 	}
 
 	/**
+	 * Gets the current game state, running or not running.
 	 * @return true if the game is running and false if it isn't.
 	 */
 	@Override

@@ -4,7 +4,7 @@ import java.awt.event.KeyListener;
 /**
  * Listens for key input and responds to it.
  */
-public class KeyboardListener implements KeyListener{
+public class KeyboardListener implements KeyListener {
 	
 	/**
 	 * Instance variable representing an object of a class that implements the PlayerActions interface.

@@ -64,7 +64,7 @@ public class SpriteUpdater implements ActionListener, PlayerActions {
 			if(!sprites.get(1).getFailed()) {
 				//displays score before it gets reset to 0
 				((Background) sprites.get(0)).setScore(((ScoreCounter) sprites.get(2)).getScore());
-				System.out.println(((ScoreCounter) sprites.get(2)).getScore());
+//				System.out.println(((ScoreCounter) sprites.get(2)).getScore());
 				//resets game
 				resetGame();
 			}

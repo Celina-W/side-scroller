@@ -3,7 +3,6 @@ import java.awt.image.BufferedImage;
 
 /**
  * The sprites of obstacles.
- * @author
  *
  */
 public class Obstacle extends Sprite {
@@ -12,11 +11,6 @@ public class Obstacle extends Sprite {
 	 * Instance variable that stores the width of the obstacle, as the width gets temporarily set to 0 every time it goes off the screen.
 	 */
 	private int tempWidth;
-	
-	/**
-	 * Constant storing the number of ticks until the obstacle's speed increases.
-	 */
-	private final int TICKS_UNTIL_FASTER = 400;
 
 	/**
 	 * Constructs a hidden obstacle with an image.
@@ -63,14 +57,4 @@ public class Obstacle extends Sprite {
 		setWidth(tempWidth);
 	}
 	
-	/**
-	 * Decrements the amount of time until the obstacle speeds up, and speeds the obstacle up once that reaches 0.
-	 */
-	public void decrementTimer() {
-		setTicksUntilFaster(getTicksUntilFaster() - 1);
-		if (getTicksUntilFaster() == 0) {
-			speedUp();
-			setTicksUntilFaster(TICKS_UNTIL_FASTER);
-		}
-	}
 }

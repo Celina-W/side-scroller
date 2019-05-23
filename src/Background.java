@@ -35,7 +35,7 @@ public class Background extends Sprite {
 	}
 	
 	/**
-	 * Sets the score to be dispalyed
+	 * Sets the score to be displayed
 	 * @param s the player's score, taken from the ScoreCounter class
 	 */
 	public void setScore(int s) {

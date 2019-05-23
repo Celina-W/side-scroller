@@ -3,8 +3,6 @@ import java.awt.event.ActionListener;
 
 /**
  * Spawns obstacles at random intervals.
- * @author 
- *
  */
 public class ObstacleSpawner implements ActionListener {
 

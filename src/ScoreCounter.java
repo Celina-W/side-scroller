@@ -43,6 +43,7 @@ public class ScoreCounter extends Sprite implements ActionListener {
 		super(img);
 		ticksUntilScore = TICKS_UNTIL_SCORE;
 		score = 0;
+		prevScore = 0;
 	}
 
 	/**

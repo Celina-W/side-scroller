@@ -1,10 +1,10 @@
-/**
- * The Board class stores the graphical elements that display the game to the screen.
- */
 import javax.swing.JFrame;
 import java.awt.Canvas;
 import java.awt.Dimension;
 
+/**
+ * The Board class stores the graphical elements that display the game to the screen.
+ */
 public class Board implements Commons{
 	
 	/**

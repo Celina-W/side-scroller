@@ -1,4 +1,3 @@
-import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 /**
@@ -19,4 +18,5 @@ public class PencilObstacle extends Obstacle {
 		super(img, "pencil");
 		setY(PENCIL_HEIGHT);
 	}
+	
 }

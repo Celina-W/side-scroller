@@ -3,12 +3,9 @@ import java.awt.image.BufferedImage;
 
 /**
  * The sprite of the player.
- * @author 
- *
  */
 public class Player extends Sprite {
-//	private int xPos = BOARD_WIDTH / 10;
-//	private int yPos = BOARD_HEIGHT / 2;
+
 	/**
 	 * Instance variable representing if the player is jumping or not.
 	 */

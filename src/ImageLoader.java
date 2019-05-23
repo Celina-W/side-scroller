@@ -4,10 +4,13 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+/**
+ * Loads an image.
+ */
 public class ImageLoader {
 
 	/**
-	 * // Returns the image at the path location as a BufferedImage or an error code.
+	 * Returns the image at the path location as a BufferedImage or an error code.
 	 * @param path location of the image
 	 * @return the image as a BufferedImage or an error code
 	 */
